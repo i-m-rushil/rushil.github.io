@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+ }
+
+main.gallery{
+	width: 100%;
+}
+
+.gallery h2{
+	text-align: center;
+	color: #800d29;
+	font-family: sans-serif;
+	background-color: skyblue;
+}
+.gallery figure{
+	margin: 0;
+	position: relative;
+}
+
+.gallery img{
+	display: block;
+}
+
+figcaption{
+	color: black;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	padding: 0%;
+	text-align: center;
+	position: absolute ;
+	bottom: 0;
+	background-color: skyblue;
+	width: 83%;
+}
+
+.clip1{
+		clip-path: hexagon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip2{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip3{
+		clip-path: hexagon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip4{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip5{
+		clip-path: hexagon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip6{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip7{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip8{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.clip9{
+		clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+.photos{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 20px;
+}
+
